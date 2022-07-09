@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPLA87pnixt"
+#define BLYNK_TEMPLATE_ID "ABCDEFGH"
 #define BLYNK_DEVICE_NAME "Home Automation"
-#define BLYNK_AUTH_TOKEN "Si1hL9co8W1HumvgpjLrzQ5Yj-D5-Sl4"
+#define BLYNK_AUTH_TOKEN "AUTHTOKEN GIVEN"
 #define BLYNK_PRINT Serial
 
 #include <ESP8266WiFi.h>
@@ -8,8 +8,8 @@
 
 char auth[] = BLYNK_AUTH_TOKEN;
 
-char ssid[] = "SHREERUP";
-char pass[] = "47038868";
+char ssid[] = "WIFINAME";
+char pass[] = "WIFIPASSWORD";
 
 BLYNK_WRITE(V0)
 {
